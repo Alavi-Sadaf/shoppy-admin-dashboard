@@ -5,6 +5,7 @@ import { MdOutlineCancel } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { links }from '../data/dummy';
+import { useStateContext } from '../contexts/ContextProvider';
 
 const Sidebar = () => {
   const activeMenu = true
