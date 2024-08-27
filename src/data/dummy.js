@@ -639,7 +639,6 @@ export const earningData = [
     title: 'Sales',
     iconColor: 'rgb(228, 106, 118)',
     iconBg: 'rgb(255, 244, 229)',
-
     pcColor: 'green-600',
   },
   {
@@ -821,7 +820,7 @@ export const medicalproBranding = {
 
 export const themeColors = [
   {
-    name: 'blue-theme',
+    name: '{currentColor}-theme',
     color: '#1A97F5',
   },
   {
@@ -2863,7 +2862,7 @@ export const scheduleData = [
   },
   {
     Id: 3,
-    Subject: 'Blue Moon Eclipse',
+    Subject: '{currentColor} Moon Eclipse',
     Location: 'Space Center USA',
     StartTime: '2021-01-12T04:00:00.000Z',
     EndTime: '2021-01-12T05:30:00.000Z',
@@ -3182,7 +3181,7 @@ export const stackedCustomSeries = [
     yName: 'y',
     name: 'Budget',
     type: 'StackingColumn',
-    background: 'blue',
+    background: '{currentColor}',
 
   },
 
